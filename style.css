@@ -155,7 +155,8 @@ h4 {
 .col-4:hover {
     transform: translateY(-5px);
 }
-.offer{
+
+.offer {
     background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
     padding: 30px 0;
@@ -163,13 +164,51 @@ h4 {
 
 /*-----offer-----*/
 
-.col-2 .offer-img{
+.col-2 .offer-img {
     padding: 50px;
 }
-small{
+
+small {
     color: #555;
     font-size: large;
 }
-.col-2 p{
+
+.col-2 p {
     font-size: x-large;
+}
+
+/*-------testimonial------*/
+
+.testimonial {
+    padding-top: 100px;
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 20%;
+}
+
+.testimonial .col-3:hover {
+    transform: translateY(-20px);
+}
+
+.col-3 p {
+    font-size: 15px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 17px;
 }
